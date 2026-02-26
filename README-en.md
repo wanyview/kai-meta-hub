@@ -1,6 +1,6 @@
 # Kai's Meta Hub: The Crossroads of Ideas in the AI Era
 
-> **English Version Available**: [README-en.md](./README-en.md)
+> 中文版: [README.md](./README.md)
 
 ## Introduction
 
@@ -187,6 +187,24 @@ Everyone who stays here can **take something away**.
 
 ---
 
+## Documentation (English)
+
+### Articles
+- [Article 1: The Second Brain in the AI Era](./kai_meta_hub_article_01-en.md)
+- [Article 2: What is a Digital Steward?](./kai_meta_hub_article_02-en.md)
+- [Article 3: The Future of Knowledge Capsules](./kai_meta_hub_article_03-en.md)
+- [Article 4: DATM Scoring System Deep Dive](./kai_meta_hub_article_04-en.md)
+- [Article 5: The Power of Cross-Domain Knowledge Connection](./kai_meta_hub_article_05-en.md)
+
+### Strategies
+- [Knowledge Salon Strategy](./kaihub_salon_strategy-en.md)
+- [Matrix Collaboration Plan](./kaihub_matrix_collaboration_plan-en.md)
+
+### Technical
+- [Knowledge Capsules System](./knowledge-capsules-en.md)
+
+---
+
 ## Appendix: Knowledge Capsule System
 
 ### DATM Scoring Model
@@ -218,3 +236,10 @@ Everyone who stays here can **take something away**.
 *Kai's Meta Hub: Let knowledge flow, let ideas collide.*
 
 **Follow us and explore the infinite possibilities of the AI era together.**
+
+---
+
+## Repository Info
+
+- **Main Repository**: https://github.com/wanyview/kai-meta-hub
+- **Capsule Service V2**: https://github.com/wanyview/kai-capsule-service-v2
