@@ -1,0 +1,43 @@
+# TIER Coffee Knowledge Salon - AI Agents
+
+FastAPI-based AI Agent system for TIER Coffee Knowledge Salon.
+
+## Quick Start
+
+```bash
+cd tier-agents
+pip install -r requirements.txt
+python main.py
+```
+
+## API Endpoints
+
+### Chat with Agent
+```bash
+curl -X POST http://localhost:8000/api/v1/agent/chat \
+  -H "Content-Type: application/json" \
+  -d '{
+    "agent_id": "ed_sheeran",
+    "user_id": "user_123",
+    "message": "你好，能聊聊你的创作过程吗？"
+  }'
+```
+
+### List Agents
+```bash
+curl http://localhost:8000/api/v1/agent/list
+```
+
+## Agent Types
+
+- **Music Friends** (Episode 1-10): Top global musicians
+- **New Artists** (Episode 11-20): Rising stars
+- **Rising Stars** (Episode 21-30): Emerging talents
+- **Debate Agents**: Discussion moderators
+
+## Architecture
+
+- FastAPI backend
+- MiniMax/OpenAI LLM
+- Vector knowledge base
+- Conversation memory
