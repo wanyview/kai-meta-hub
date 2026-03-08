@@ -1,220 +1,46 @@
-# Kai's Meta Hub: The Crossroads of Ideas in the AI Era
+<img src="./static/logo.png" alt="KAI-Meta-Hub Logo" width="200"/>
 
-> **English Version Available**: [README-en.md](./README-en.md)
+[![GitHub Stars](https://img.shields.io/github/stars/wanyview/kai-meta-hub?style=flat-square&color=DAA520)](https://github.com/wanyview/kai-meta-hub/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/wanyview/kai-meta-hub?style=flat-square)](https://github.com/wanyview/kai-meta-hub/network)
+[![Python](https://img.shields.io/badge/Python-3.9+-blue?style=flat-square&logo=python)](https://www.python.org/)
 
-## Introduction
+> 知识图谱引擎 - 节点关联与路径查询
 
-What makes Luo Yonghao's "Crossroads" podcast deeply moving is that it provides three scarce treasures: **space for deep thinking, the power of authentic dialogue, and the value of knowledge accumulation**.
-
-Kai's Meta Hub aims to replicate this model in China's AI field—creating a **knowledge crossroads where ideas collide**.
-
----
-
-## Why Do We Need a "Meta Hub"?
-
-### 1. Counter-Current in the Age of Information Overload
-
-Countless AI news, tools, and hot topics emerge daily, but truly deep thinking is rare.
-
-- 99% of content is repackaged
-- 99% of opinions are retweets
-- 99% of discussions are emotional
-
-We need **1% of deep thinking**.
-
-### 2. Upgrade Path for Knowledge Capsules
-
-Knowledge capsules solve the "knowledge storage" problem, but they need to evolve into **knowledge exchange**.
-
-- Capsules are static
-- Dialogue is dynamic
-- Collision generates new knowledge
-
-The Meta Hub's mission: **Let knowledge flow**.
-
-### 3. The Mission of Digital Stewards
-
-As a Digital Steward, Kai's core ability is not answering questions, but **stimulating thinking**.
-
-- Not giving you answers
-- But helping you ask questions
-- Thinking with you
-
-This is the core value of Luo Yonghao's Crossroads, and also Kai's Meta Hub positioning.
+KAI-Meta-Hub是知识图谱核心引擎，支持动态节点/边构建、BFS路径查询、图谱分析等能力。为知识胶囊系统提供强大的关联分析支持。
 
 ---
 
-## What Does the Meta Hub Do?
+## ✨ 特性
 
-### 1. Long-Form Podcasts (30-60 minutes)
-
-Weekly in-depth interviews with:
-
-- AI entrepreneurs
-- Scientists
-- Philosophers
-- Artists
-- Practitioners from various fields
-
-**Format**: Casual dialogue + idea collision + deep questioning
-
-### 2. Long-Form Articles (3000-5000 words)
-
-Daily in-depth analysis on:
-
-- AI trend interpretation
-- Technical deep dives
-- Industry insights
-- Knowledge accumulation
-
-**Standard**: Insightful, actionable, accumulable
-
-### 3. Knowledge Collision
-
-Regularly organize:
-
-- Online discussions
-- Opinion PK
-- Knowledge debates
-
-**Purpose**: Let truth emerge through debate
+- **动态图谱**: 实时创建节点和边
+- **路径查询**: BFS/A*路径搜索
+- **图分析**: 度中心性、PageRank等
+- **可视化**: 图谱可视化支持
 
 ---
 
-## Key Insights from "Luo Yonghao's Crossroads"
+## 🚀 快速开始
 
-### 1. Depth Comes from Authenticity
+```bash
+git clone https://github.com/wanyview/kai-meta-hub.git
+cd kai-meta-hub
+pip install -r requirements.txt
+python api.py
+```
 
-What makes Luo Yonghao's interviews deep:
-
-- **Authentic dialogue**: No preset positions, no scripted processes
-- **Sincere expression**: Willing to expose confusion and weaknesses
-- **Genuine thinking**: Not repackaging opinions, but independent judgment
-
-### 2. Value Comes from Accumulation
-
-Each podcast episode is knowledge accumulation:
-
-- Audio is raw material
-- Text is deep organization
-- Essence is thought refinement
-
-### 3. Influence Comes from Persistence
-
-Luo Yonghao did 100+ episodes to build the Crossroads brand.
-
-**The key is not starting, but persisting.**
+服务启动: http://localhost:8892
 
 ---
 
-## Kai Meta Hub's Differentiated Positioning
+## 📖 API
 
-### 1. Depth Over Speed
-
-We don't pursue daily output quantity, but **quality of each piece**.
-
-- 3000 words is the minimum
-- Must have unique insights
-- Must guide practice
-
-### 2. Idea Collision Over One-Way Output
-
-We don't just output opinions, but **stimulate thinking**.
-
-- Ask more questions than give answers
-- Show multiple perspectives
-- Encourage questioning and discussion
-
-### 3. Knowledge Accumulation Over Traffic
-
-We don't pursue 100k+ views, but **1000 deep readers**.
-
-- Each piece is a knowledge asset
-- Can be reread repeatedly
-- Forms a knowledge system
+| 端点 | 方法 | 描述 |
+|------|------|------|
+| `/api/nodes` | POST | 创建节点 |
+| `/api/edges` | POST | 创建边 |
+| `/api/path` | GET | 路径查询 |
+| `/api/analyze` | GET | 图谱分析 |
 
 ---
 
-## Execution Standards (Five Commandments)
-
-### 1. Depth First
-- Get to the essence of each topic
-- Don't stop at surface analysis
-- Provide unique insights
-
-### 2. Evidence-Based
-- Have data support
-- Have case verification
-- Have practical testing
-
-### 3. Action-Oriented
-- Not just tell "what"
-- But also tell "how"
-- Provide specific steps
-
-### 4. Idea Collision
-- Not afraid of controversy
-- Welcome questioning
-- Pursue truth
-
-### 5. Continuous Accumulation
-- Each piece is an asset
-- Can be reread repeatedly
-- Forms a knowledge system
-
----
-
-## Update Frequency
-
-- Long articles: 1 per day
-- Long podcasts: 1 per week
-- Knowledge collisions: 1 per month
-
----
-
-## Vision
-
-**Goals**:
-- 100 in-depth podcasts
-- 365 long-form articles
-- 10,000+ knowledge capsules
-- 1M+ deep readers
-
-**Vision**: 
-Become China's most valuable **thought crossroads** in the AI field.
-
-Everyone who stays here can **take something away**.
-
----
-
-## Appendix: Knowledge Capsule System
-
-### DATM Scoring Model
-
-- **Truth (T)** - Scientific accuracy: facts correct, sources reliable
-- **Goodness (G)** - Practicality: solves problems, has application value
-- **Beauty (A)** - Aesthetic: elegant expression, pleasant to read
-- **Intelligence (I)** - Wisdom: inspires thinking, enhances cognition
-
-### Knowledge Capsule Application Scenarios
-
-1. **Personal Knowledge Management**
-   - Turn reading insights into capsules
-   - Precipitate practical experience
-   - Systematize thought crystals
-
-2. **Team Knowledge Sharing**
-   - Turn expert experience into capsules
-   - Precipitate project lessons
-   - Pass down organizational wisdom
-
-3. **Knowledge Trading**
-   - Valuable capsules can be shared
-   - Quality capsules can be traded
-   - Continuous output builds personal brand
-
----
-
-*Kai's Meta Hub: Let knowledge flow, let ideas collide.*
-
-**Follow us and explore the infinite possibilities of the AI era together.**
+*Built with ❤️ by KAI*
